@@ -1,45 +1,51 @@
 ###############################################################################
 #
-# IAR ELF Linker V8.20.1.14183/W32 for ARM                26/Aug/2020  14:50:20
+# IAR ELF Linker V8.20.1.14183/W32 for ARM                23/Feb/2021  16:09:32
 # Copyright 2007-2017 IAR Systems AB.
 #
-#    Output file  =  D:\test\EWARM\Debug\Exe\STM32F1_TEMPLATE.out
-#    Map file     =  D:\test\EWARM\Debug\List\STM32F1_TEMPLATE.map
+#    Output file  =  
+#        D:\1.PKH\1.Project\45.STM32F1_TEMPLATE_PROJECT\EWARM\Debug\Exe\STM32F1_TEMPLATE.out
+#    Map file     =  
+#        D:\1.PKH\1.Project\45.STM32F1_TEMPLATE_PROJECT\EWARM\Debug\List\STM32F1_TEMPLATE.map
 #    Command line =  
-#        -f C:\Users\hongt\AppData\Local\Temp\EWB3CB.tmp
-#        (D:\test\EWARM\Debug\Obj\control_led.o
-#        D:\test\EWARM\Debug\Obj\core_cm3.o D:\test\EWARM\Debug\Obj\main.o
-#        D:\test\EWARM\Debug\Obj\misc.o
-#        D:\test\EWARM\Debug\Obj\startup_stm32f10x_cl.o
-#        D:\test\EWARM\Debug\Obj\stm32f10x_adc.o
-#        D:\test\EWARM\Debug\Obj\stm32f10x_bkp.o
-#        D:\test\EWARM\Debug\Obj\stm32f10x_can.o
-#        D:\test\EWARM\Debug\Obj\stm32f10x_cec.o
-#        D:\test\EWARM\Debug\Obj\stm32f10x_crc.o
-#        D:\test\EWARM\Debug\Obj\stm32f10x_dac.o
-#        D:\test\EWARM\Debug\Obj\stm32f10x_dbgmcu.o
-#        D:\test\EWARM\Debug\Obj\stm32f10x_dma.o
-#        D:\test\EWARM\Debug\Obj\stm32f10x_exti.o
-#        D:\test\EWARM\Debug\Obj\stm32f10x_flash.o
-#        D:\test\EWARM\Debug\Obj\stm32f10x_fsmc.o
-#        D:\test\EWARM\Debug\Obj\stm32f10x_gpio.o
-#        D:\test\EWARM\Debug\Obj\stm32f10x_i2c.o
-#        D:\test\EWARM\Debug\Obj\stm32f10x_it.o
-#        D:\test\EWARM\Debug\Obj\stm32f10x_iwdg.o
-#        D:\test\EWARM\Debug\Obj\stm32f10x_pwr.o
-#        D:\test\EWARM\Debug\Obj\stm32f10x_rcc.o
-#        D:\test\EWARM\Debug\Obj\stm32f10x_rtc.o
-#        D:\test\EWARM\Debug\Obj\stm32f10x_sdio.o
-#        D:\test\EWARM\Debug\Obj\stm32f10x_spi.o
-#        D:\test\EWARM\Debug\Obj\stm32f10x_tim.o
-#        D:\test\EWARM\Debug\Obj\stm32f10x_usart.o
-#        D:\test\EWARM\Debug\Obj\stm32f10x_wwdg.o
-#        D:\test\EWARM\Debug\Obj\system_stm32f10x.o -o
-#        D:\test\EWARM\Debug\Exe\STM32F1_TEMPLATE.out --redirect
-#        _Printf=_PrintfFullNoMb --redirect _Scanf=_ScanfFullNoMb --map
-#        D:\test\EWARM\Debug\List\STM32F1_TEMPLATE.map --config
-#        D:\test\EWARM/settings/stm32f10x_flash.icf --semihosting --entry
-#        __iar_program_start --vfe --text_out locale)
+#        -f C:\Users\hongt\AppData\Local\Temp\EWA1DA.tmp
+#        (D:\1.PKH\1.Project\45.STM32F1_TEMPLATE_PROJECT\EWARM\Debug\Obj\control_led.o
+#        D:\1.PKH\1.Project\45.STM32F1_TEMPLATE_PROJECT\EWARM\Debug\Obj\core_cm3.o
+#        D:\1.PKH\1.Project\45.STM32F1_TEMPLATE_PROJECT\EWARM\Debug\Obj\main.o
+#        D:\1.PKH\1.Project\45.STM32F1_TEMPLATE_PROJECT\EWARM\Debug\Obj\misc.o
+#        D:\1.PKH\1.Project\45.STM32F1_TEMPLATE_PROJECT\EWARM\Debug\Obj\startup_stm32f10x_cl.o
+#        D:\1.PKH\1.Project\45.STM32F1_TEMPLATE_PROJECT\EWARM\Debug\Obj\stm32f10x_adc.o
+#        D:\1.PKH\1.Project\45.STM32F1_TEMPLATE_PROJECT\EWARM\Debug\Obj\stm32f10x_bkp.o
+#        D:\1.PKH\1.Project\45.STM32F1_TEMPLATE_PROJECT\EWARM\Debug\Obj\stm32f10x_can.o
+#        D:\1.PKH\1.Project\45.STM32F1_TEMPLATE_PROJECT\EWARM\Debug\Obj\stm32f10x_cec.o
+#        D:\1.PKH\1.Project\45.STM32F1_TEMPLATE_PROJECT\EWARM\Debug\Obj\stm32f10x_crc.o
+#        D:\1.PKH\1.Project\45.STM32F1_TEMPLATE_PROJECT\EWARM\Debug\Obj\stm32f10x_dac.o
+#        D:\1.PKH\1.Project\45.STM32F1_TEMPLATE_PROJECT\EWARM\Debug\Obj\stm32f10x_dbgmcu.o
+#        D:\1.PKH\1.Project\45.STM32F1_TEMPLATE_PROJECT\EWARM\Debug\Obj\stm32f10x_dma.o
+#        D:\1.PKH\1.Project\45.STM32F1_TEMPLATE_PROJECT\EWARM\Debug\Obj\stm32f10x_exti.o
+#        D:\1.PKH\1.Project\45.STM32F1_TEMPLATE_PROJECT\EWARM\Debug\Obj\stm32f10x_flash.o
+#        D:\1.PKH\1.Project\45.STM32F1_TEMPLATE_PROJECT\EWARM\Debug\Obj\stm32f10x_fsmc.o
+#        D:\1.PKH\1.Project\45.STM32F1_TEMPLATE_PROJECT\EWARM\Debug\Obj\stm32f10x_gpio.o
+#        D:\1.PKH\1.Project\45.STM32F1_TEMPLATE_PROJECT\EWARM\Debug\Obj\stm32f10x_i2c.o
+#        D:\1.PKH\1.Project\45.STM32F1_TEMPLATE_PROJECT\EWARM\Debug\Obj\stm32f10x_it.o
+#        D:\1.PKH\1.Project\45.STM32F1_TEMPLATE_PROJECT\EWARM\Debug\Obj\stm32f10x_iwdg.o
+#        D:\1.PKH\1.Project\45.STM32F1_TEMPLATE_PROJECT\EWARM\Debug\Obj\stm32f10x_pwr.o
+#        D:\1.PKH\1.Project\45.STM32F1_TEMPLATE_PROJECT\EWARM\Debug\Obj\stm32f10x_rcc.o
+#        D:\1.PKH\1.Project\45.STM32F1_TEMPLATE_PROJECT\EWARM\Debug\Obj\stm32f10x_rtc.o
+#        D:\1.PKH\1.Project\45.STM32F1_TEMPLATE_PROJECT\EWARM\Debug\Obj\stm32f10x_sdio.o
+#        D:\1.PKH\1.Project\45.STM32F1_TEMPLATE_PROJECT\EWARM\Debug\Obj\stm32f10x_spi.o
+#        D:\1.PKH\1.Project\45.STM32F1_TEMPLATE_PROJECT\EWARM\Debug\Obj\stm32f10x_tim.o
+#        D:\1.PKH\1.Project\45.STM32F1_TEMPLATE_PROJECT\EWARM\Debug\Obj\stm32f10x_usart.o
+#        D:\1.PKH\1.Project\45.STM32F1_TEMPLATE_PROJECT\EWARM\Debug\Obj\stm32f10x_wwdg.o
+#        D:\1.PKH\1.Project\45.STM32F1_TEMPLATE_PROJECT\EWARM\Debug\Obj\system_stm32f10x.o
+#        -o
+#        D:\1.PKH\1.Project\45.STM32F1_TEMPLATE_PROJECT\EWARM\Debug\Exe\STM32F1_TEMPLATE.out
+#        --redirect _Printf=_PrintfFullNoMb --redirect _Scanf=_ScanfFullNoMb
+#        --map
+#        D:\1.PKH\1.Project\45.STM32F1_TEMPLATE_PROJECT\EWARM\Debug\List\STM32F1_TEMPLATE.map
+#        --config
+#        D:\1.PKH\1.Project\45.STM32F1_TEMPLATE_PROJECT\EWARM/settings/stm32f10x_flash.icf
+#        --semihosting --entry __iar_program_start --vfe --text_out locale)
 #
 ###############################################################################
 
@@ -195,7 +201,7 @@ Copy (__iar_copy_init3)
 
     Module                  ro code  ro data  rw data
     ------                  -------  -------  -------
-D:\test\EWARM\Debug\Obj: [1]
+D:\1.PKH\1.Project\45.STM32F1_TEMPLATE_PROJECT\EWARM\Debug\Obj: [1]
     control_led.o                76        4        4
     main.o                      204        4        4
     startup_stm32f10x_cl.o      596
@@ -291,7 +297,7 @@ turn_off_led_debug      0x0800046d   0xe  Code  Gb  control_led.o [1]
 turn_on_led_debug       0x0800047b   0xe  Code  Gb  control_led.o [1]
 
 
-[1] = D:\test\EWARM\Debug\Obj
+[1] = D:\1.PKH\1.Project\45.STM32F1_TEMPLATE_PROJECT\EWARM\Debug\Obj
 [2] = command line
 [3] = dl7M_tln.a
 [4] = rt7M_tl.a

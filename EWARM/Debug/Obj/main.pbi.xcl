@@ -1,22 +1,22 @@
-"D:\New folder (2)\EWARM\main.c"
+"D:\1.PKH\1.Project\45.STM32F1_TEMPLATE_PROJECT\EWARM\main.c"
 -std=c11
 -ferror-limit=0
 -I
-D:\New folder (2)\EWARM
+D:\1.PKH\1.Project\45.STM32F1_TEMPLATE_PROJECT\EWARM
 -I
-D:\New folder (2)\EWARM\Debug
+D:\1.PKH\1.Project\45.STM32F1_TEMPLATE_PROJECT\EWARM\Debug
 -I
-D:\New folder (2)\EWARM\settings
+D:\1.PKH\1.Project\45.STM32F1_TEMPLATE_PROJECT\EWARM\settings
 -I
-D:\New folder (2)\EWARM\..
+D:\1.PKH\1.Project\45.STM32F1_TEMPLATE_PROJECT\EWARM\..
 -I
-D:\New folder (2)\EWARM\..\CMSIS
+D:\1.PKH\1.Project\45.STM32F1_TEMPLATE_PROJECT\EWARM\..\CMSIS
 -I
-D:\New folder (2)\EWARM\..\Manual_Config
+D:\1.PKH\1.Project\45.STM32F1_TEMPLATE_PROJECT\EWARM\..\Manual_Config
 -I
-D:\New folder (2)\EWARM\..\Std_Periph
+D:\1.PKH\1.Project\45.STM32F1_TEMPLATE_PROJECT\EWARM\..\Std_Periph
 -I
-D:\New folder (2)\EWARM\..\user
+D:\1.PKH\1.Project\45.STM32F1_TEMPLATE_PROJECT\EWARM\..\user
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\arm\CMSIS\Include
 -I
@@ -24,21 +24,21 @@ C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\arm\inc
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\arm\inc\c
 -I
-D:\New folder (2)\EWARM
+D:\1.PKH\1.Project\45.STM32F1_TEMPLATE_PROJECT\EWARM
 -I
-D:\New folder (2)\EWARM\Debug
+D:\1.PKH\1.Project\45.STM32F1_TEMPLATE_PROJECT\EWARM\Debug
 -I
-D:\New folder (2)\EWARM\settings
+D:\1.PKH\1.Project\45.STM32F1_TEMPLATE_PROJECT\EWARM\settings
 -I
-D:\New folder (2)
+D:\1.PKH\1.Project\45.STM32F1_TEMPLATE_PROJECT
 -I
-D:\New folder (2)\CMSIS
+D:\1.PKH\1.Project\45.STM32F1_TEMPLATE_PROJECT\CMSIS
 -I
-D:\New folder (2)\Manual_Config
+D:\1.PKH\1.Project\45.STM32F1_TEMPLATE_PROJECT\Manual_Config
 -I
-D:\New folder (2)\Std_Periph
+D:\1.PKH\1.Project\45.STM32F1_TEMPLATE_PROJECT\Std_Periph
 -I
-D:\New folder (2)\user
+D:\1.PKH\1.Project\45.STM32F1_TEMPLATE_PROJECT\user
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\arm\CMSIS\Include
 -D__CHAR_BITS__=8
