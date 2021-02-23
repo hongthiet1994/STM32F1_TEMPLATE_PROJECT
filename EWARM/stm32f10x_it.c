@@ -1,12 +1,12 @@
 /**
   ******************************************************************************
-  * @file    SysTick/TimeBase/stm32f10x_it.c 
+  * @file    SDIO/uSDCard/stm32f10x_it.c 
   * @author  MCD Application Team
   * @version V3.5.0
   * @date    08-April-2011
   * @brief   Main Interrupt Service Routines.
-  *          This file provides template for all exceptions handler and peripherals
-  *          interrupt service routine.
+  *          This file provides template for all exceptions handler and 
+  *          peripherals interrupt service routine.
   ******************************************************************************
   * @attention
   *
@@ -23,13 +23,13 @@
 
 /* Includes ------------------------------------------------------------------*/
 #include "stm32f10x_it.h"
-#include "main.h"
+#include "stm32_eval_sdio_sd.h"
 
 /** @addtogroup STM32F10x_StdPeriph_Examples
   * @{
   */
 
-/** @addtogroup SysTick_TimeBase
+/** @addtogroup SDIO_uSDCard
   * @{
   */
 
@@ -62,8 +62,7 @@ void HardFault_Handler(void)
 {
   /* Go to infinite loop when Hard Fault exception occurs */
   while (1)
-  {
-  }
+  {}
 }
 
 /**
@@ -75,8 +74,7 @@ void MemManage_Handler(void)
 {
   /* Go to infinite loop when Memory Manage exception occurs */
   while (1)
-  {
-  }
+  {}
 }
 
 /**
@@ -88,8 +86,7 @@ void BusFault_Handler(void)
 {
   /* Go to infinite loop when Bus Fault exception occurs */
   while (1)
-  {
-  }
+  {}
 }
 
 /**
@@ -101,17 +98,7 @@ void UsageFault_Handler(void)
 {
   /* Go to infinite loop when Usage Fault exception occurs */
   while (1)
-  {
-  }
-}
-
-/**
-  * @brief  This function handles SVCall exception.
-  * @param  None
-  * @retval None
-  */
-void SVC_Handler(void)
-{
+  {}
 }
 
 /**
@@ -120,6 +107,15 @@ void SVC_Handler(void)
   * @retval None
   */
 void DebugMon_Handler(void)
+{
+}
+
+/**
+  * @brief  This function handles SVCall exception.
+  * @param  None
+  * @retval None
+  */
+void SVC_Handler(void)
 {
 }
 
@@ -139,7 +135,21 @@ void PendSV_Handler(void)
   */
 void SysTick_Handler(void)
 {
-  TimingDelay_Decrement();
+}
+
+/******************************************************************************/
+/*            STM32F10x Peripherals Interrupt Handlers                        */
+/******************************************************************************/
+
+/**
+  * @brief  This function handles SDIO global interrupt request.
+  * @param  None
+  * @retval None
+  */
+void SDIO_IRQHandler(void)
+{
+  /* Process All SDIO Interrupt Sources */
+  SD_ProcessIRQSrc();
 }
 
 /******************************************************************************/
