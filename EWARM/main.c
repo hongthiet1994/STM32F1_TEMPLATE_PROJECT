@@ -79,10 +79,10 @@ int main(void)
      */
 
   /* Initialize LEDs available on STM3210X-EVAL board *************************/
-  STM_EVAL_LEDInit(LED1);
-  STM_EVAL_LEDInit(LED2);
-  STM_EVAL_LEDInit(LED3);
-  STM_EVAL_LEDInit(LED4);  
+//  STM_EVAL_LEDInit(LED1);
+//  STM_EVAL_LEDInit(LED2);
+//  STM_EVAL_LEDInit(LED3);
+//  STM_EVAL_LEDInit(LED4);  
 
   /* Interrupt Config */
   NVIC_Configuration();
@@ -138,7 +138,7 @@ void NVIC_Configuration(void)
   /* Configure the NVIC Preemption Priority Bits */
   NVIC_PriorityGroupConfig(NVIC_PriorityGroup_1);
 
-  NVIC_InitStructure.NVIC_IRQChannel = 0;//SDIO_IRQn;
+  NVIC_InitStructure.NVIC_IRQChannel = 49;//SDIO_IRQn;
   NVIC_InitStructure.NVIC_IRQChannelPreemptionPriority = 0;
   NVIC_InitStructure.NVIC_IRQChannelSubPriority = 0;
   NVIC_InitStructure.NVIC_IRQChannelCmd = ENABLE;

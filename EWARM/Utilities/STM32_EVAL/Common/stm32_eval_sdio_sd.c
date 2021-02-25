@@ -414,7 +414,7 @@ SD_Error SD_Init(void)
 
   if (errorstatus == SD_OK)
   {
-    errorstatus = SD_EnableWideBusOperation(SDIO_BusWide_4b);
+    errorstatus = SD_EnableWideBusOperation(SDIO_BusWide_1b);
   }  
 
   return(errorstatus);
@@ -2104,7 +2104,6 @@ static SD_Error SDEnWideBus(FunctionalState NewState)
   {
     return(errorstatus);
   }
-
   /*!< If wide bus operation to be enabled */
   if (NewState == ENABLE)
   {

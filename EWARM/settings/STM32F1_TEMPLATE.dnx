@@ -20,7 +20,7 @@
         <stlinkfoundProbes />
     </StLinkDriver>
     <DebugChecksum>
-        <Checksum>1168352100</Checksum>
+        <Checksum>1843571159</Checksum>
     </DebugChecksum>
     <Exceptions>
         <StopOnUncaught>_ 0</StopOnUncaught>
@@ -30,8 +30,8 @@
         <Enabled>_ 0</Enabled>
     </CodeCoverage>
     <Disassembly>
-        <InstrCount>0</InstrCount>
         <MixedMode>1</MixedMode>
+        <InstrCount>0</InstrCount>
     </Disassembly>
     <CallStack>
         <ShowArgs>0</ShowArgs>
@@ -111,7 +111,17 @@
         <mode>0</mode>
     </DisassembleMode>
     <Breakpoints2>
-        <Count>0</Count>
+        <Bp0>_ 1 "EMUL_CODE" "{$PROJ_DIR$\Utilities\STM32_EVAL\Common\stm32_eval_sdio_sd.c}.1081.7" 0 0 1 "" 0 "" 0</Bp0>
+        <Bp1>_ 0 "EMUL_CODE" "{$PROJ_DIR$\Utilities\STM32_EVAL\Common\stm32_eval_sdio_sd.c}.1943.3" 0 0 1 "" 0 "" 0</Bp1>
+        <Bp2>_ 0 "EMUL_CODE" "{$PROJ_DIR$\Utilities\STM32_EVAL\Common\stm32_eval_sdio_sd.c}.384.17" 0 0 1 "" 0 "" 0</Bp2>
+        <Bp3>_ 1 "EMUL_CODE" "{$PROJ_DIR$\Utilities\STM32_EVAL\Common\stm32_eval_sdio_sd.c}.2103.3" 0 0 1 "" 0 "" 0</Bp3>
+        <Bp4>_ 1 "EMUL_CODE" "{$PROJ_DIR$\Utilities\STM32_EVAL\Common\stm32_eval_sdio_sd.c}.2416.3" 0 0 1 "" 0 "" 0</Bp4>
+        <Bp5>_ 1 "EMUL_CODE" "{$PROJ_DIR$\Utilities\STM32_EVAL\Common\stm32_eval_sdio_sd.c}.1065.7" 0 0 1 "" 0 "" 0</Bp5>
+        <Bp6>_ 1 "EMUL_CODE" "{$PROJ_DIR$\Utilities\STM32_EVAL\Common\stm32_eval_sdio_sd.c}.2456.3" 0 0 1 "" 0 "" 0</Bp6>
+        <Bp7>_ 0 "EMUL_CODE" "{$PROJ_DIR$\Utilities\STM32_EVAL\Common\stm32_eval_sdio_sd.c}.2448.8" 0 0 1 "" 0 "" 0</Bp7>
+        <Bp8>_ 0 "EMUL_CODE" "{$PROJ_DIR$\Utilities\STM32_EVAL\Common\stm32_eval_sdio_sd.c}.2436.8" 0 0 1 "" 0 "" 0</Bp8>
+        <Bp9>_ 0 "EMUL_CODE" "{$PROJ_DIR$\Utilities\STM32_EVAL\Common\stm32_eval_sdio_sd.c}.2442.8" 0 0 1 "" 0 "" 0</Bp9>
+        <Count>10</Count>
     </Breakpoints2>
     <LogFile>
         <LoggingEnabled>_ 0</LoggingEnabled>
