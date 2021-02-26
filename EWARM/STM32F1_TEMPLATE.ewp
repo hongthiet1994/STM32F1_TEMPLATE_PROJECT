@@ -2059,7 +2059,7 @@
             <name>$PROJ_DIR$\Utilities\STM32_EVAL\STM3210E_EVAL\stm3210e_eval.c</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\Utilities\STM32_EVAL\stm3210e_eval\stm3210e_eval.h</name>
+            <name>$PROJ_DIR$\Utilities\STM32_EVAL\STM3210E_EVAL\stm3210e_eval.h</name>
         </file>
         <file>
             <name>$PROJ_DIR$\Utilities\STM32_EVAL\Common\stm32_eval_sdio_sd.c</name>

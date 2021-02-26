@@ -12,15 +12,15 @@
         <ByteLimit>50</ByteLimit>
     </Stack>
     <StLinkDriver>
+        <stlinkserialNo>434D4E00</stlinkserialNo>
+        <stlinkfoundProbes />
         <CStepIntDis>_ 0</CStepIntDis>
         <LeaveTargetRunning>_ 0</LeaveTargetRunning>
         <stlinkResetStyle>0</stlinkResetStyle>
         <stlinkResetStrategy>1</stlinkResetStrategy>
-        <stlinkserialNo>434D4E00</stlinkserialNo>
-        <stlinkfoundProbes />
     </StLinkDriver>
     <DebugChecksum>
-        <Checksum>1843571159</Checksum>
+        <Checksum>2016267050</Checksum>
     </DebugChecksum>
     <Exceptions>
         <StopOnUncaught>_ 0</StopOnUncaught>
@@ -111,16 +111,16 @@
         <mode>0</mode>
     </DisassembleMode>
     <Breakpoints2>
-        <Bp0>_ 1 "EMUL_CODE" "{$PROJ_DIR$\Utilities\STM32_EVAL\Common\stm32_eval_sdio_sd.c}.1081.7" 0 0 1 "" 0 "" 0</Bp0>
-        <Bp1>_ 0 "EMUL_CODE" "{$PROJ_DIR$\Utilities\STM32_EVAL\Common\stm32_eval_sdio_sd.c}.1943.3" 0 0 1 "" 0 "" 0</Bp1>
-        <Bp2>_ 0 "EMUL_CODE" "{$PROJ_DIR$\Utilities\STM32_EVAL\Common\stm32_eval_sdio_sd.c}.384.17" 0 0 1 "" 0 "" 0</Bp2>
-        <Bp3>_ 1 "EMUL_CODE" "{$PROJ_DIR$\Utilities\STM32_EVAL\Common\stm32_eval_sdio_sd.c}.2103.3" 0 0 1 "" 0 "" 0</Bp3>
-        <Bp4>_ 1 "EMUL_CODE" "{$PROJ_DIR$\Utilities\STM32_EVAL\Common\stm32_eval_sdio_sd.c}.2416.3" 0 0 1 "" 0 "" 0</Bp4>
-        <Bp5>_ 1 "EMUL_CODE" "{$PROJ_DIR$\Utilities\STM32_EVAL\Common\stm32_eval_sdio_sd.c}.1065.7" 0 0 1 "" 0 "" 0</Bp5>
-        <Bp6>_ 1 "EMUL_CODE" "{$PROJ_DIR$\Utilities\STM32_EVAL\Common\stm32_eval_sdio_sd.c}.2456.3" 0 0 1 "" 0 "" 0</Bp6>
-        <Bp7>_ 0 "EMUL_CODE" "{$PROJ_DIR$\Utilities\STM32_EVAL\Common\stm32_eval_sdio_sd.c}.2448.8" 0 0 1 "" 0 "" 0</Bp7>
-        <Bp8>_ 0 "EMUL_CODE" "{$PROJ_DIR$\Utilities\STM32_EVAL\Common\stm32_eval_sdio_sd.c}.2436.8" 0 0 1 "" 0 "" 0</Bp8>
-        <Bp9>_ 0 "EMUL_CODE" "{$PROJ_DIR$\Utilities\STM32_EVAL\Common\stm32_eval_sdio_sd.c}.2442.8" 0 0 1 "" 0 "" 0</Bp9>
+        <Bp0>_ 1 "EMUL_CODE" "{$PROJ_DIR$\Utilities\STM32_EVAL\Common\stm32_eval_sdio_sd.c}.1331.3" 0 0 1 "" 0 "" 0</Bp0>
+        <Bp1>_ 1 "EMUL_CODE" "{$PROJ_DIR$\main.c}.104.9" 0 0 1 "" 0 "" 0</Bp1>
+        <Bp2>_ 1 "EMUL_CODE" "{$PROJ_DIR$\Utilities\STM32_EVAL\Common\stm32_eval_sdio_sd.c}.1326.3" 0 0 1 "" 0 "" 0</Bp2>
+        <Bp3>_ 1 "EMUL_CODE" "{$PROJ_DIR$\main.c}.169.11" 0 0 1 "" 0 "" 0</Bp3>
+        <Bp4>_ 1 "EMUL_CODE" "{$PROJ_DIR$\Utilities\STM32_EVAL\Common\stm32_eval_sdio_sd.c}.1321.12" 0 0 1 "" 0 "" 0</Bp4>
+        <Bp5>_ 0 "EMUL_CODE" "{$PROJ_DIR$\main.c}.175.5" 0 0 1 "" 0 "" 0</Bp5>
+        <Bp6>_ 0 "EMUL_CODE" "{$PROJ_DIR$\Utilities\STM32_EVAL\Common\stm32_eval_sdio_sd.c}.1305.3" 0 0 1 "" 0 "" 0</Bp6>
+        <Bp7>_ 0 "EMUL_CODE" "{$PROJ_DIR$\Utilities\STM32_EVAL\Common\stm32_eval_sdio_sd.c}.1694.3" 0 0 1 "" 0 "" 0</Bp7>
+        <Bp8>_ 0 "EMUL_CODE" "{$PROJ_DIR$\Utilities\STM32_EVAL\Common\stm32_eval_sdio_sd.c}.2429.3" 0 0 1 "" 0 "" 0</Bp8>
+        <Bp9>_ 0 "EMUL_CODE" "{$PROJ_DIR$\main.c}.166.14" 0 0 1 "" 0 "" 0</Bp9>
         <Count>10</Count>
     </Breakpoints2>
     <LogFile>
@@ -128,6 +128,10 @@
         <LogFile>_ ""</LogFile>
         <Category>_ 0</Category>
     </LogFile>
+    <TermIOLog>
+        <LoggingEnabled>_ 0</LoggingEnabled>
+        <LogFile>_ ""</LogFile>
+    </TermIOLog>
     <Aliases>
         <Count>0</Count>
         <SuppressDialog>0</SuppressDialog>
@@ -145,8 +149,4 @@
     <CallStackStripe>
         <ShowTiming>1</ShowTiming>
     </CallStackStripe>
-    <TermIOLog>
-        <LoggingEnabled>_ 0</LoggingEnabled>
-        <LogFile>_ ""</LogFile>
-    </TermIOLog>
 </settings>

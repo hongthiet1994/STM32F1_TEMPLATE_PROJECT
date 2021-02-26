@@ -101,8 +101,7 @@ int main(void)
       case (SD_OPERATION_ERASE):
       {
         SD_EraseTest();
-        SDCardOperation = SD_OPERATION_BLOCK;
-        break;
+        SDCardOperation = SD_OPERATION_BLOCK;        break;
       }
       /*-------------------------- SD Single Block Test --------------------- */
       case (SD_OPERATION_BLOCK):
